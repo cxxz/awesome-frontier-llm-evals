@@ -25,25 +25,17 @@ An **unsolved, open-ended benchmark for computer science research and algorithmi
 ### **ADRS – AI-Driven Research for Systems**
 🔗 https://github.com/UCB-ADRS/ADRS  
 
-Code and artifacts from *“Barbarians at the Gate: How AI is Upending Systems Research”*.
-
-- Evaluates AI agents on **real systems research tasks**
-- Domains include:
+Evaluates AI agents on **real systems research tasks** including the following sub-domains:
   - Scheduling and load balancing
   - MoE expert placement
   - Transaction scheduling
   - LLM-SQL optimization
 - Uses **reliable, executable verifiers** rather than subjective grading
-- Demonstrates where AI can outperform humans — but only with **heavy iteration and guidance**
-
-> A strong signal for **frontier research capability**, not just benchmark performance.
 
 ### **Remote Labor Index (RLI)**
 🔗 https://www.remotelabor.ai  
 
-A benchmark measuring **end-to-end automation of real remote work**.
-
-- Tasks drawn from real freelance projects:
+A benchmark measuring **end-to-end automation of real remote work** with tasks drawn from real freelance projects:
   - Game development
   - Product design
   - Data analysis
@@ -51,25 +43,19 @@ A benchmark measuring **end-to-end automation of real remote work**.
 - Projects cost up to **$10k+** and require **100+ hours** for humans
 - Best frontier agents achieve **~2.5% automation rate**
 
-> Despite strong reasoning benchmarks, LLM agents remain **near the floor** on real economic work.
-
 ### **GDPval (OpenAI)**
 🔗 https://openai.com/index/gdpval/  
 
 An evaluation of **economically valuable real-world tasks** across 44 occupations.
-
 - 1,300+ tasks derived from real professional deliverables
 - Evaluated by domain experts and automated graders
 - Frontier models show improvement but **far from saturation**
 - Highlights gaps between lab benchmarks and real work
 
-> GDPval helps quantify where frontier models still fall short in practical settings.
-
 ### **EnigmaEval**
 🔗 https://arxiv.org/html/2502.08859v1  
 
 A benchmark of **long, unstructured, multimodal reasoning challenges** derived from puzzle hunts.
-
 - 1,184 multimodal puzzles (text + images)
 - Problems often require **hours or days for expert humans**
 - Best frontier models achieve:
@@ -83,13 +69,10 @@ A benchmark of **long, unstructured, multimodal reasoning challenges** derived f
 🔗 https://github.com/centerforaisafety/hle  
 
 A **frontier academic benchmark** designed to be the *final closed-ended exam* of its kind.
-
 - 2,500 questions across mathematics, humanities, and natural sciences
 - Multi-modal, expert-written, and globally curated
 - Typical model accuracy: **~3%**
 - Includes canary strings to prevent training contamination
-
-> HLE intentionally probes the **limits of structured academic knowledge**.
 
 ## Contributing
 
