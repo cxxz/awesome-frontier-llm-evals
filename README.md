@@ -13,58 +13,32 @@ This repository tracks emerging, challenging and frontier evaluation tasks for f
 ### **Frontier-CS**
 🔗 https://github.com/FrontierCS/Frontier-CS  
 
-An **unsolved, open-ended benchmark for computer science research and algorithmic problems**.
-
-- Problems are **genuinely difficult**, often without known optimal solutions
-- Includes **research-level systems challenges** and **unbounded algorithmic optimization**
-- Continuous, verifiable scoring instead of binary pass/fail
-
-> Models that perform well on traditional coding benchmarks still struggle significantly on Frontier-CS.
+An unsolved, open-ended, verifiable and diverse benchmark for AI on challenging computer science problems. It offers algorithmic and research tasks with continuous scoring rather than binary pass-fail, encouraging iterative improvement. Frontier-CS probes problems with no known optimal solutions, pushing models beyond saturated coding contests.
 
 ### **ADRS – AI-Driven Research for Systems**
 🔗 https://github.com/UCB-ADRS/ADRS  
 
-Evaluates AI agents on **real systems research tasks** including the following sub-domains:
-  - Scheduling and load balancing
-  - MoE expert placement
-  - Transaction scheduling
-  - LLM-SQL optimization
-- Uses **reliable, executable verifiers** rather than subjective grading
+ADRS uses AI to generate, evaluate and refine algorithms for performance-oriented systems tasks, such as mixture-of-experts placement, multi-region cloud scheduling, LLM-SQL optimization and transaction scheduling. The framework emphasizes reliable verifiers so AI-generated solutions can be automatically validated against predefined workloads.
 
 ### **Remote Labor Index (RLI)**
 🔗 https://www.remotelabor.ai  
 
-A benchmark measuring **end-to-end automation of real remote work** with tasks drawn from real freelance projects:
-  - Game development
-  - Product design
-  - Data analysis
-  - Architecture and media production
-- Projects cost up to **$10k+** and require **100+ hours** for humans
+A multi-sector benchmark of real remote work projects that measures AI automation in practical settings. RLI contains projects spanning game development, product design, architecture, data analysis and video animation. It represents more than 6,000 hours of human labor valued at over $140,000.
 
 ### **GDPval (OpenAI)**
 🔗 https://openai.com/index/gdpval/  
 
-An evaluation of **economically valuable real-world tasks** across 44 occupations.
-- 1,300+ tasks derived from real professional deliverables
-- Evaluated by domain experts and automated graders
-- Frontier models show improvement but **far from saturation**
+An economically oriented evaluation introduced by OpenAI that measures model performance on real-world tasks across 44 occupations. The dataset includes 1,320 specialized tasks (220 in the public gold set) derived from deliverables such as legal briefs, engineering blueprints and nursing care plans. Expert graders compare AI-generated outputs to human work using detailed scoring rubrics. GDPval provides a transparent basis for tracking improvements in economically valuable capabilities.
 
 ### **EnigmaEval**
 🔗 https://arxiv.org/html/2502.08859v1  
 
-A benchmark of **long, unstructured, multimodal reasoning challenges** derived from puzzle hunts.
-- 1,184 multimodal puzzles (text + images)
-- Problems often require **hours or days for expert humans**
-- Designed to defeat shortcut reasoning and pattern matching
+A benchmark of 1,184 long multimodal puzzles drawn from puzzle hunts that test implicit knowledge synthesis and multi-step deductive reasoning. Each puzzle combines text and images and may take human teams hours or days to solve. EnigmaEval includes both the original multimodal problems and human-transcribed versions to separate reasoning from preprocessing limitations.
 
-> Complements academic benchmarks by stressing **creative and lateral reasoning**.
-
-### **Humanity’s Last Exam (HLE)**
+### **Humanity's Last Exam (HLE)**
 🔗 https://github.com/centerforaisafety/hle  
 
-A **frontier academic benchmark** designed to be the *final closed-ended exam* of its kind.
-- 2,500 questions across mathematics, humanities, and natural sciences
-- Multi-modal, expert-written, and globally curated
+A multimodal academic benchmark comprising 2,500 closed-ended questions across dozens of subjects including mathematics, humanities and natural sciences. Designed to be the final closed-ended exam of its kind, HLE provides multiple-choice and short-answer questions suitable for automated grading.
 
 ## Contributing
 
