@@ -18,7 +18,6 @@ An **unsolved, open-ended benchmark for computer science research and algorithmi
 - Problems are **genuinely difficult**, often without known optimal solutions
 - Includes **research-level systems challenges** and **unbounded algorithmic optimization**
 - Continuous, verifiable scoring instead of binary pass/fail
-- Explicitly designed to avoid benchmark saturation  
 
 > Models that perform well on traditional coding benchmarks still struggle significantly on Frontier-CS.
 
@@ -41,7 +40,6 @@ A benchmark measuring **end-to-end automation of real remote work** with tasks d
   - Data analysis
   - Architecture and media production
 - Projects cost up to **$10k+** and require **100+ hours** for humans
-- Best frontier agents achieve **~2.5% automation rate**
 
 ### **GDPval (OpenAI)**
 🔗 https://openai.com/index/gdpval/  
@@ -50,7 +48,6 @@ An evaluation of **economically valuable real-world tasks** across 44 occupation
 - 1,300+ tasks derived from real professional deliverables
 - Evaluated by domain experts and automated graders
 - Frontier models show improvement but **far from saturation**
-- Highlights gaps between lab benchmarks and real work
 
 ### **EnigmaEval**
 🔗 https://arxiv.org/html/2502.08859v1  
@@ -58,9 +55,6 @@ An evaluation of **economically valuable real-world tasks** across 44 occupation
 A benchmark of **long, unstructured, multimodal reasoning challenges** derived from puzzle hunts.
 - 1,184 multimodal puzzles (text + images)
 - Problems often require **hours or days for expert humans**
-- Best frontier models achieve:
-  - ~7% accuracy on standard puzzles
-  - ~0% on hard subsets
 - Designed to defeat shortcut reasoning and pattern matching
 
 > Complements academic benchmarks by stressing **creative and lateral reasoning**.
@@ -71,8 +65,6 @@ A benchmark of **long, unstructured, multimodal reasoning challenges** derived f
 A **frontier academic benchmark** designed to be the *final closed-ended exam* of its kind.
 - 2,500 questions across mathematics, humanities, and natural sciences
 - Multi-modal, expert-written, and globally curated
-- Typical model accuracy: **~3%**
-- Includes canary strings to prevent training contamination
 
 ## Contributing
 
